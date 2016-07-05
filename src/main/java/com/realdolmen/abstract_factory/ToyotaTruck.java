@@ -1,4 +1,4 @@
-package com.realdolmen.factory;
+package com.realdolmen.abstract_factory;
 
 class ToyotaTruck extends Truck {
     public ToyotaTruck(int capacity) {

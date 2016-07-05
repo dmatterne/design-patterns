@@ -1,6 +1,6 @@
 package com.realdolmen.builder;
 
-import com.realdolmen.factory.Color;
+import com.realdolmen.abstract_factory.Color;
 
 import java.util.ArrayList;
 import java.util.List;

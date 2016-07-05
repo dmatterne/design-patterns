@@ -1,6 +1,6 @@
 package com.realdolmen.builder;
 
-import com.realdolmen.factory.Color;
+import com.realdolmen.abstract_factory.Color;
 
 public class CarBuilder {
     private static final int NUMBER_OF_WHEELS_PER_CAR = 4;

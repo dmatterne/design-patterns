@@ -1,6 +1,6 @@
 package com.realdolmen.builder;
 
-import com.realdolmen.factory.Color;
+import com.realdolmen.abstract_factory.Color;
 
 /**
  * Using the examples you should imagine the case to be much more complex.
@@ -12,7 +12,7 @@ import com.realdolmen.factory.Color;
  * only starts paying off when the benefits of the improved architecture are higher than
  * this extra overhead.
  */
-public class CarBuilderRunner {
+public class BuilderRunner {
     public static void main(String[] args) {
         // Director here is the "main" itself.
         // Could also be a separate class on it's own that has a "construct()" method.
