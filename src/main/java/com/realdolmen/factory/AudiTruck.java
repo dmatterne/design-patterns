@@ -5,6 +5,6 @@ package com.realdolmen.factory;
  */
 class AudiTruck extends Truck {
     public AudiTruck(int capacity) {
-        super(capacity, "Audi", "A10");
+        super(capacity, "A10", "Audi");
     }
 }
