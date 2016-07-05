@@ -1,4 +1,4 @@
-package com.realdolmen.factorymethod;
+package be.david.factorymethod;
 
 import java.awt.*;
 

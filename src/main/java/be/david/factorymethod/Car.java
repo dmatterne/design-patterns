@@ -1,28 +1,36 @@
-package com.realdolmen.factorymethod;
+package be.david.factorymethod;
 
 import java.awt.*;
 
 /**
  * Created by stannisbaratheon on 05/07/16.
  */
-public class Truck {
-
+public abstract class Car {
     private String make;
     private String model;
     private Color color;
     private int cc;
+    private String seats;
+    private boolean spoiler;
+    private boolean berline;
     private String fuelType;
     private int fuelLevel;
-    private int capacity;
 
-    public Truck(String make, String model, Color color, int cc, String fuelType, int fuelLevel, int capacity) {
+    public Car(Color color, String fuelType) {
+        this.color = color;
+        this.fuelType = fuelType;
+    }
+
+    public Car(String make, String model, Color color, int cc, String seats, boolean spoiler, boolean berline, String fuelType, int fuelLevel) {
         this.make = make;
         this.model = model;
         this.color = color;
         this.cc = cc;
+        this.seats = seats;
+        this.spoiler = spoiler;
+        this.berline = berline;
         this.fuelType = fuelType;
         this.fuelLevel = fuelLevel;
-        this.capacity = capacity;
     }
 
     public String getMake() {
@@ -57,6 +65,30 @@ public class Truck {
         this.cc = cc;
     }
 
+    public String getSeats() {
+        return seats;
+    }
+
+    public void setSeats(String seats) {
+        this.seats = seats;
+    }
+
+    public boolean isSpoiler() {
+        return spoiler;
+    }
+
+    public void setSpoiler(boolean spoiler) {
+        this.spoiler = spoiler;
+    }
+
+    public boolean isBerline() {
+        return berline;
+    }
+
+    public void setBerline(boolean berline) {
+        this.berline = berline;
+    }
+
     public String getFuelType() {
         return fuelType;
     }
@@ -71,13 +103,5 @@ public class Truck {
 
     public void setFuelLevel(int fuelLevel) {
         this.fuelLevel = fuelLevel;
-    }
-
-    public int getCapacity() {
-        return capacity;
-    }
-
-    public void setCapacity(int capacity) {
-        this.capacity = capacity;
     }
 }
