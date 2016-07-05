@@ -1,14 +1,12 @@
 package be.david.factorymethod;
 
-import java.awt.*;
-
 /**
  * Created by stannisbaratheon on 05/07/16.
  */
 public interface VehicleFactory {
 
     Car createCar(Color color, String fuel);
-    Truck createTruck(String load);
+    Truck createTruck(int load);
 
 
 

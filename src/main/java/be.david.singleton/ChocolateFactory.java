@@ -1,4 +1,4 @@
-package com.realdolmen.chocolatefactory;
+package be.david.singleton;
 
 /**
  * Created by stannisbaratheon on 05/07/16.
