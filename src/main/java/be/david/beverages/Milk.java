@@ -5,8 +5,6 @@ package be.david.beverages;
  */
 public class Milk extends CondimentDecorator {
 
-    private Beverage beverage;
-
     public Milk(Beverage beverage) {
         this.beverage = beverage;
     }
