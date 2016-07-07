@@ -1,4 +1,4 @@
-package com.realdolmen.factory;
+package com.realdolmen.abstract_factory;
 
 /**
  * Created by KVRRQ70 on 5/07/2016.
